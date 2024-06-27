@@ -1,0 +1,2 @@
+for(var e=document.getElementsByTagName("form"),t=function(e){var t=e.slice(1),r="";return Array.from(t).forEach(function(e){e===e.toUpperCase()&&(r+=" "),r+=e}),e.slice(0,1).toUpperCase()+r},r=0;r<e.length;r++)Array.from(e[r].getElementsByTagName("input")).map(function(e){var r=document.createElement("label");r.classList.add("field-label"),r.setAttribute("for",e.id),r.textContent=t(e.name),e.parentNode.insertBefore(r,e),e.setAttribute("placeholder",t(e.name))});
+//# sourceMappingURL=index.9dbe5b71.js.map
